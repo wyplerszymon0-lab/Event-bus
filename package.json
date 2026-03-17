@@ -1,0 +1,12 @@
+{
+  "name": "event-bus",
+  "version": "1.0.0",
+  "description": "Lightweight pub/sub event bus with wildcards, retry logic, and dead-letter queue. Zero dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/event-bus.test.js",
+    "example": "node examples/order-pipeline.js"
+  },
+  "keywords": ["event-bus", "pubsub", "events", "wildcard", "retry", "dead-letter"],
+  "license": "MIT"
+}
